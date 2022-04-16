@@ -1,18 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <h1 className="text-3xl font-bold underline">
-//       Hello world!
-//     </h1>
-    
-//   );
-// }
-
-// export default App;
-
-
 import React, { useEffect } from 'react'
 import About from './components/About'
 import Card from './components/Card'
@@ -22,15 +7,21 @@ import ContactMe from './components/contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
+
 function App() {
+
   useEffect(() => {
     AOS.init({
       once: true,
-        
+
     })
   })
+
   return (
-    <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-400">
+
+    <div className="min-h-screen py-10 px-3 sm:px-5 bg-black">
       <div data-aos="fade-down" data-aos-duration="800">
         <Card />
       </div>
@@ -39,9 +30,11 @@ function App() {
         <Skills />
         <ContactMe />
         <Footer />
-
       </div>
     </div>
+
+
+
   );
 }
 export default App;

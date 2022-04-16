@@ -13,7 +13,7 @@ function Footer() {
                 <FaGithub />
                 <span class="sr-only">Github</span>
               </a>
-              <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-blue-600 rounded-full hover:text-white transition-colors duration-300" href="https://www.linkedin.com/in/yasir-obaibullah99">
+              <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-700 hover:bg-blue-700 rounded-full hover:text-white transition-colors duration-300 "href="https://www.linkedin.com/in/yasir-obaibullah99">
                 <FaLinkedin />
                 <span class="sr-only">Linkedin</span>
               </a>
@@ -21,7 +21,7 @@ function Footer() {
                 <FaTwitter />
                 <span class="sr-only">Twitter</span>  
               </a>
-              <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-500 hover:bg-black rounded-full hover:text-white transition-colors duration-300" href="https://mailto:yasirobaidullah123@gmail.com">
+              <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300" href="https://gmailto:yasirobaidullah123@gmail.com">
                 <FaRegEnvelope />
                 <span class="sr-only">Email</span>  
               </a>
@@ -29,8 +29,8 @@ function Footer() {
              
             </div>
             <div className="flex align-center justify-center mt-4">
-              <p className="text-white mb-4">
-                  Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-red-500 hover:underline" href="mailto:me.yasirobaidullah123@gmail.com"> Yasir Obaibullah</a>
+              <p className="text-white mb-4 ">
+                  Made with <span className = "mr-2" role="img" aria-label="heart">❤️</span>by<a className="text-red-500 hover:underline" href="mailto:me.yasirobaidullah123@gmail.com"> Yasir Obaibullah</a>
               </p>
               </div> 
     </div>
